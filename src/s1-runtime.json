@@ -1,0 +1,15 @@
+{
+  "target": "bmv2",
+  "p4info": "build/p4anony.p4.p4info.txt",
+  "bmv2_json": "build/p4anony.json",
+  "table_entries": [
+    {
+      "table": "OntasIngress.forward_tb",
+      "match": {
+        "standard_metadata.ingress_port": [32]
+      },
+      "action_name": "OntasIngress.nop_action",
+      "action_params": { }
+    }
+  ]
+}
