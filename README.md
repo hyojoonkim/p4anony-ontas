@@ -1,5 +1,7 @@
 # ONTAS: Flexible and Scalable Online Network Traffic Anonymization System
-This is the ONTAS source code for BMv2.
+This is the ONTAS source code for BMv2. It is implemented with P4-16. 
+
+**Note**: Basic testing shows this ONTAS source code version for BMv2  works correctly (P4-16). But note that it was not tested as rigorously as the one for Barefoot Tofino (P4-14), which is the version used in [our paper](https://dl.acm.org/citation.cfm?id=3342208).
 
 ## To Run ONTAS in Mininet with BMv2
 1. Download the P4 Tutorial VM. The download link can be found from the [P4 Developer Day 2019 website](https://p4.org/events/2019-04-30-p4-developer-day/).
